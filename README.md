@@ -4,7 +4,8 @@ A program that allows multiple people to communicate over the internet using the
 ## Setup
 ### Windows
 #### Dependancy Installation:
-- ``pip install -r requirements.txt``
+- ``pip install PyAudio-0.2.11-cp37-cp37m-win_amd64.whl``
+- pyAudio只支持windows且需要手动安装
 
 ### Linux/Mac
 #### Dependancy Installation:

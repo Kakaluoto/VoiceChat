@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+# coding=utf-8
 import socket
 import threading
 
@@ -9,8 +9,8 @@ class Server:
         self.ip = socket.gethostbyname(socket.gethostname())
         while 1:
             try:
-                self.port = int(input('Enter port number to run on --> '))
-
+                # self.port = int(input('Enter port number to run on --> '))
+                self.port = 8000
                 self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 self.s.bind((self.ip, self.port))
 
